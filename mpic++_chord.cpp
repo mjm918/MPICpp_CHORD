@@ -11,8 +11,8 @@
 #include <cmath>
 
 #if __cplusplus >= 201103L || (defined(_MSC_VER) && _MSC_VER >= 1900)
-#include <cstdint.h>
-#include <cstdlib.h>
+#include <cstdint>
+#include <cstdlib>
 #else
 #include <stdint.h>
 #include <stdlib.h>
